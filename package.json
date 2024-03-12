@@ -10,7 +10,7 @@
     "tailwindcss": "^2.0.2"
   },
   "scripts": {
-    "build": "set NODE_ENV=production&&postcss app/static/css/tailwind.css -o app/static/style.css",
+    "build": "set NODE_ENV=production&&postcss tailwind.css -o style.css",
     "dev": "postcss tailwind.css -o style.css "
   },
   "cssnano": {
